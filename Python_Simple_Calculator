@@ -1,0 +1,39 @@
+print("Select An Operation To Perform: ")
+
+print("1. ADD")
+print("2. SUBTRACT")
+print("3. MULTIPLY")
+print("4. DIVIDE")
+
+operation = input()
+
+if operation == "1":
+    #code for add
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The sum is ", int(num1) + int(num2))
+
+elif operation == "2":
+    #code for subtract
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The difference is ", int(num1) - int(num2))
+
+elif operation == "3":
+    #code for multiply
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The product is ", int(num1) * int(num2))
+
+elif operation == "4":
+    #code for divide
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The dividend is ", int(num1) / int(num2))
+
+else:
+    #safety check for things that aren't numbers
+    print("Invalid Entry")
+
+    #break stop program
+input()
